@@ -20,6 +20,7 @@ I also volunteer on industry advisory boards for technical education and speak t
 
 - Lab notes from my home OT lab: PLC programming, HMI and historian builds, attacks and detections.
 - Practical takes on securing remote and field OT: radio, telemetry and RTUs.
+- Open-source tools I build along the way, like [OT Triage]({{ '/projects/' | relative_url }}).
 - Resources for people getting into OT security.
 
 ## Get in touch

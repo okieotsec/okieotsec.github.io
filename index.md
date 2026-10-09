@@ -23,6 +23,17 @@ layout: default
   </div>
 </section>
 
+<section class="featured">
+  <p class="eyebrow">Featured project</p>
+  <h2>OT Triage</h2>
+  <p>Now / Next / Never triage for OT/ICS vulnerabilities. Give it a CVE or a CVSS vector and what you know about the asset, and it tells you what to fix now, what can wait, and why. It works offline, and it is open source.</p>
+  <img class="shot" src="{{ '/assets/img/ot-triage/assess-dark.png' | relative_url }}" alt="OT Triage's Assess view showing a NOW result with the reasons and CISA's required action">
+  <div class="actions">
+    <a class="button" href="{{ '/projects/' | relative_url }}">About the project</a>
+    <a class="button secondary" href="{{ site.links.ot_triage }}">View on GitHub</a>
+  </div>
+</section>
+
 <section>
   <h2>Latest notes</h2>
   <ul class="post-list">
