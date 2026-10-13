@@ -5,12 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon-180.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <meta name="theme-color" content="#14365C">
+  <meta property="og:image" content="{{ '/assets/img/og-card-1200x630.png' | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="{{ '/' | relative_url }}">Okie<span>OT</span>Sec</a>
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img class="logo-light" src="{{ '/assets/img/okieotsec-lockup.svg' | relative_url }}" alt="OkieOTSec" height="40">
+        <img class="logo-dark" src="{{ '/assets/img/okieotsec-lockup-dark.svg' | relative_url }}" alt="" aria-hidden="true" height="40">
+      </a>
       <nav>
         <a href="{{ '/projects/' | relative_url }}">Projects</a>
         <a href="{{ '/notes/' | relative_url }}">Lab notes</a>
