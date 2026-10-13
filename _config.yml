@@ -7,6 +7,7 @@ permalink: /notes/:year/:title/
 markdown: kramdown
 exclude:
   - README.md
+  - scripts
 links:
   github: https://github.com/okieotsec
   youtube: https://www.youtube.com/@OkieOTSec

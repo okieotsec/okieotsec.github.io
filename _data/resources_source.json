@@ -1,0 +1,14 @@
+{
+  "source_repository": "okieotsec/ot-ics-resources",
+  "source_url": "https://github.com/okieotsec/ot-ics-resources/tree/a93684f07b28d7a144a36020aa4fd39792933a9a",
+  "source_commit": "a93684f07b28d7a144a36020aa4fd39792933a9a",
+  "source_file": "resources.json",
+  "sha256": "fcdb2439237aa4593c179b968638a07824ec5e6ffe188d39d3ade06d9d4015d7",
+  "counts": {
+    "free": 98,
+    "paid": 6,
+    "total": 104
+  },
+  "retrieved": "2026-10-13",
+  "refresh": "python3 scripts/refresh_resources.py"
+}
