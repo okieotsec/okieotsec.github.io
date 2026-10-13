@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
   <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon-180.png' | relative_url }}">
@@ -23,8 +23,10 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="{{ '/' | relative_url }}">
-        <img class="logo-light" src="{{ '/assets/img/okieotsec-lockup.svg' | relative_url }}" alt="OkieOTSec" height="40">
-        <img class="logo-dark" src="{{ '/assets/img/okieotsec-lockup-dark.svg' | relative_url }}" alt="" aria-hidden="true" height="40">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="{{ '/assets/img/okieotsec-lockup-dark.svg' | relative_url }}">
+          <img src="{{ '/assets/img/okieotsec-lockup.svg' | relative_url }}" alt="OkieOTSec" height="40">
+        </picture>
       </a>
       <nav>
         <a href="{{ '/projects/' | relative_url }}">Projects</a>
