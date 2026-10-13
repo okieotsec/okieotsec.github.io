@@ -22,15 +22,22 @@ You give it a CVSS score or a full CVSS vector, optionally a CVE, and what you k
 <ul class="facts">
   <li><strong>Threat intelligence built in.</strong> Looks a CVE up in CISA's Known Exploited Vulnerabilities catalog and in EPSS. It shows CISA's required action, its reference links (only plain HTTPS links are clickable, and you always see the real domain), and the forensic-triage flag.</li>
   <li><strong>CVSS vectors.</strong> Paste a CVSS 3.0, 3.1 or 4.0 vector and the score is filled in. Every possible base vector was checked against FIRST's official calculators.</li>
-  <li><strong>Batch mode.</strong> Load a CSV of findings, filter by bucket, search, sort and export the ranked results.</li>
-  <li><strong>Offline first.</strong> The only network access is a threat-data update that you start yourself, over HTTPS, to two public sources. Nothing about your assets or findings ever leaves the machine.</li>
+  <li><strong>CISA ICS advisories.</strong> Shows which of CISA's published ICS advisories name a CVE, with a link to each one and what it says about a fix: a vendor fix, a mitigation only, or nothing yet. This is context: it never changes the answer.</li>
+  <li><strong>Batch mode.</strong> Load a CSV of findings, filter by bucket, search, sort and export the ranked results. An asset inventory fills in criticality, exposure and controls, and an earlier export shows what is new, what moved and what was resolved.</li>
+  <li><strong>By asset.</strong> OT assets get patched in short outage windows, so one view groups the findings by asset: the worst bucket on each, and what could be handled on one visit. With a vendor and product in the inventory it also points at the advisories that may apply.</li>
+  <li><strong>Command line.</strong> The same ranking from a script or a scheduled job, with an exit code you can gate on.</li>
+  <li><strong>Offline first.</strong> The only network access is a threat-data update that you start yourself, over HTTPS, to three public sources: CISA's KEV catalog, EPSS and CISA's advisory repository. Nothing about your assets or findings ever leaves the machine.</li>
   <li><strong>Explainable rules.</strong> The decisions behind the rules, and the reasons for each, are written down in the project's policy document, and the scoring thresholds are adjustable.</li>
 </ul>
 
 <div class="shots">
   <figure>
-    <img class="shot" src="{{ '/assets/img/ot-triage/batch-dark.png' | relative_url }}" alt="The Batch view ranking six findings, with the selected row's reasons and CISA references">
+    <img class="shot" src="{{ '/assets/img/ot-triage/batch-dark.png' | relative_url }}" alt="The Batch view ranking fifteen findings, with the selected row's reasons, CISA references and the ICS advisories that name its CVE">
     <figcaption>Batch: rank a whole spreadsheet and see the references behind each row.</figcaption>
+  </figure>
+  <figure>
+    <img class="shot" src="{{ '/assets/img/ot-triage/batch-assets-dark.png' | relative_url }}" alt="The Batch view grouped by asset: the worst bucket on each asset and what could be handled on one outage window">
+    <figcaption>By asset: the worst thing on each asset, and what to handle on one visit.</figcaption>
   </figure>
   <figure>
     <img class="shot" src="{{ '/assets/img/ot-triage/assess-light.png' | relative_url }}" alt="The Assess view in the light theme">
