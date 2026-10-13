@@ -24,7 +24,7 @@ You give it a CVSS score or a full CVSS vector, optionally a CVE, and what you k
   <li><strong>CVSS vectors.</strong> Paste a CVSS 3.0, 3.1 or 4.0 vector and the score is filled in. Every possible base vector was checked against FIRST's official calculators.</li>
   <li><strong>CISA ICS advisories.</strong> Shows which of CISA's published ICS advisories name a CVE, with a link to each one, what it says about a fix (a vendor fix, a mitigation only, or nothing yet) and the vendor's own steps in the vendor's words: the firmware to install, the setting to change, the workaround. This is context: it never changes the answer.</li>
   <li><strong>Batch mode.</strong> Load a CSV of findings, filter by bucket, search, sort and export the ranked results. An asset inventory fills in criticality, exposure and controls, and an earlier export shows what is new, what moved and what was resolved.</li>
-  <li><strong>By asset.</strong> OT assets get patched in short outage windows, so one view groups the findings by asset: the worst bucket on each, and what could be handled on one visit. With a vendor and product in the inventory it also points at the advisories that may apply.</li>
+  <li><strong>By asset.</strong> OT assets get patched in short outage windows, so one view groups the findings by asset: the worst bucket on each, and what could be handled on one visit. With a vendor, product and version in the inventory it also points at the advisories that may apply, and says which of them list your version as affected.</li>
   <li><strong>Command line.</strong> The same ranking from a script or a scheduled job, with an exit code you can gate on.</li>
   <li><strong>Offline first.</strong> The only network access is a threat-data update that you start yourself, over HTTPS, to three public sources: CISA's KEV catalog, EPSS and CISA's advisory repository. Nothing about your assets or findings ever leaves the machine.</li>
   <li><strong>Explainable rules.</strong> The decisions behind the rules, and the reasons for each, are written down in the project's policy document, and the scoring thresholds are adjustable.</li>
@@ -62,7 +62,7 @@ The Now / Next / Never categories come from the framing Dragos has used in its a
 
 ### Get it
 
-The current version is **0.7.0**. Each [release]({{ site.links.ot_triage }}/releases/latest) has a portable bundle (`ot-triage-0.7.0.zip`) with a checksum file next to it. Unzip it anywhere and, on Windows, double-click **OT Triage.pyw**; everywhere else run `python3 ot_triage_gui.py`. It needs Python 3.12 or newer with Tkinter, and nothing else: no third-party packages and no `.exe`. The bundle is reproducible, so anyone can rebuild it from the tag and compare the checksum.
+The current version is **0.8.0**. Each [release]({{ site.links.ot_triage }}/releases/latest) has a portable bundle (`ot-triage-0.8.0.zip`) with a checksum file next to it. Unzip it anywhere and, on Windows, double-click **OT Triage.pyw**; everywhere else run `python3 ot_triage_gui.py`. It needs Python 3.12 or newer with Tkinter, and nothing else: no third-party packages and no `.exe`. The bundle is reproducible, so anyone can rebuild it from the tag and compare the checksum.
 
 If you are looking for places to learn more about OT security, there is also a [curated list of free OT/ICS resources]({{ '/resources/' | relative_url }}).
 
