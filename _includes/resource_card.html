@@ -1,0 +1,35 @@
+{%- assign r = include.r -%}
+{%- assign h = include.level | default: 4 -%}
+{%- capture search_text -%}{{ r.id }} {{ r.title }} {{ r.category }} {{ r.summary }} {{ r.practical_use }}{%- endcapture -%}
+{%- case r.access_class -%}
+  {%- when "public_free" -%}{%- assign access_label = "Free" -%}
+  {%- when "free_with_conditions" -%}{%- assign access_label = "Free, with conditions" -%}
+  {%- else -%}{%- assign access_label = "Paid" -%}
+{%- endcase -%}
+<article class="res-card" id="{{ r.id }}" data-category="{{ r.category | escape }}" data-audience="{{ r.audience_tags | join: ' ' | escape }}" data-access="{{ r.access_class | escape }}" data-text="{{ search_text | downcase | escape }}">
+  <header>
+    <p class="res-id">{{ r.id }}{% if r.recommended %} · <span class="res-star">A good place to start</span>{% endif %}</p>
+    <h{{ h }} class="res-title"><a href="{{ r.url | escape }}" rel="noopener noreferrer">{{ r.title | escape }}</a></h{{ h }}>
+  </header>
+  <p class="res-badges">
+    <span class="res-badge res-badge--{{ r.access_class | escape }}">{{ access_label }}</span>
+    <span class="res-level">{{ r.level | escape }}</span>
+  </p>
+  <p class="res-summary">{{ r.summary | escape }}</p>
+  <p class="res-use"><strong>Use it for:</strong> {{ r.practical_use | escape }}</p>
+  <dl class="res-facts">
+    <div><dt>Cost</dt><dd>{{ r.cost | escape }}</dd></div>
+    <div><dt>Access</dt><dd>{{ r.access | escape }}</dd></div>
+    {%- if r.publication_status %}
+    <div><dt>Publication status</dt><dd>{{ r.publication_status | escape }}</dd></div>
+    {%- endif %}
+    <div><dt>Reviewed</dt><dd>{{ r.last_reviewed | escape }}</dd></div>
+  </dl>
+  {%- if r.related_url or r.evidence_url %}
+  <p class="res-links">
+    {%- if r.related_url and r.related_url != r.url %}<a href="{{ r.related_url | escape }}" rel="noopener noreferrer">Related official source</a>{% endif -%}
+    {%- if r.evidence_url and r.evidence_url != r.url %}{% if r.related_url and r.related_url != r.url %} · {% endif %}<a href="{{ r.evidence_url | escape }}" rel="noopener noreferrer">Supporting publisher source</a>{% endif -%}
+  </p>
+  {%- endif %}
+  <details class="res-verify"><summary>How this was checked</summary><p>{{ r.verification | escape }}</p></details>
+</article>

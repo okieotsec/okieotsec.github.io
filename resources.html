@@ -1,0 +1,88 @@
+---
+layout: default
+title: OT/ICS Resources
+permalink: /resources/
+description: "A curated, accessibility-first catalog of free OT/ICS and industrial cybersecurity resources, with a few affordable paid options. Search and filter by topic, audience and access."
+---
+{% assign all = site.data.resources.resources %}
+{% assign free = all | where: "cost_group", "free" %}
+{% assign paid = all | where: "cost_group", "paid" %}
+{% assign topics = all | map: "category" | uniq %}
+{% assign free_topics = free | map: "category" | uniq %}
+{% assign src = site.data.resources_source %}
+{% assign repo_url = "https://github.com/okieotsec/ot-ics-resources" %}
+
+<section class="res-intro">
+  <p class="eyebrow">Resources</p>
+  <h1>OT/ICS Resources</h1>
+  <p class="lede">A curated, accessibility-first collection for people learning industrial automation, moving from IT security into OT, or defending operational environments. {{ free.size }} are free or free with conditions; {{ paid.size }} are affordable paid options, listed separately.</p>
+  <p class="res-meta">Selection favors authoritative publishers and practical value, and the notes are editorial judgments. "Free" does not cover hardware, travel or an unrestricted license: every entry states its own conditions. Each one links to the original publisher; nothing is mirrored here. The catalog lives in its own repository, where you can <a href="{{ repo_url }}">read the full README</a>, <a href="{{ repo_url }}/blob/main/CONTRIBUTING.md">suggest a resource</a> or <a href="{{ repo_url }}/issues/new/choose">report a correction</a>.</p>
+</section>
+
+<noscript><p class="res-note">Search and filters need JavaScript. The full list is below.</p></noscript>
+
+<form class="res-controls" id="res-controls" role="search" aria-label="Search and filter resources" hidden>
+  <div class="res-field">
+    <label for="res-q">Search</label>
+    <input id="res-q" type="search" autocomplete="off" placeholder="Title, topic, summary or use">
+  </div>
+  <div class="res-field">
+    <label for="res-topic">Topic</label>
+    <select id="res-topic">
+      <option value="">All topics</option>
+      {% for t in topics %}<option value="{{ t | escape }}">{{ t | escape }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="res-field">
+    <label for="res-audience">Audience</label>
+    <select id="res-audience">
+      <option value="">Everyone</option>
+      <option value="foundation">Foundation</option>
+      <option value="practitioner">Practitioner</option>
+      <option value="specialist">Specialist</option>
+      <option value="program-lead">Program lead</option>
+      <option value="architect">Architect</option>
+      <option value="electric-sector">Electric sector</option>
+    </select>
+  </div>
+  <div class="res-field">
+    <label for="res-access">Access</label>
+    <select id="res-access">
+      <option value="">Any access</option>
+      <option value="public_free">Free</option>
+      <option value="free_with_conditions">Free, with conditions</option>
+      <option value="paid">Paid</option>
+    </select>
+  </div>
+  <div class="res-field res-field--button"><button type="reset" class="button secondary">Reset filters</button></div>
+</form>
+<p id="res-status" class="res-status" role="status" aria-live="polite"></p>
+<div id="res-empty" class="res-empty" hidden>
+  <p>No resources match those filters.</p>
+  <p><button type="button" id="res-clear" class="button secondary">Show all resources</button></p>
+</div>
+
+<section data-section class="res-section" aria-labelledby="res-free-h">
+  <h2 id="res-free-h">Free and free-with-conditions resources</h2>
+  {% for topic in free_topics %}
+  <section data-group class="res-group" aria-labelledby="g-{{ forloop.index }}">
+    <h3 id="g-{{ forloop.index }}">{{ topic | escape }}</h3>
+    {% for r in free %}{% if r.category == topic %}{% include resource_card.html r=r %}{% endif %}{% endfor %}
+  </section>
+  {% endfor %}
+</section>
+
+<section data-section class="res-section" aria-labelledby="res-paid-h">
+  <h2 id="res-paid-h">Affordable paid options</h2>
+  <p class="res-meta">Prices are observed publisher listings, not quotes. Billing periods, taxes, promotions and region can change them, so check at checkout. Free routes above are enough to start.</p>
+  <section data-group class="res-group">
+    {% for r in paid %}{% include resource_card.html r=r level=3 %}{% endfor %}
+  </section>
+</section>
+
+<section class="res-source" aria-labelledby="res-source-h">
+  <h2 id="res-source-h">About this data</h2>
+  <p>This page is generated from <a href="{{ src.source_url }}">{{ src.source_repository }} at commit <code>{{ src.source_commit | slice: 0, 12 }}</code></a>, retrieved {{ src.retrieved }}. The file's SHA-256 is <code>{{ src.sha256 | slice: 0, 16 }}…</code>. Research dates, per-entry review dates and verification notes come from that catalog; this site does not keep a second copy to edit. Entries were checked against official pages where possible, and this does not mean every course was taken or every tool tested. Links can change or disappear.</p>
+</section>
+
+<script src="{{ '/assets/js/resources.js' | relative_url }}" defer></script>

@@ -1,0 +1,2157 @@
+{
+  "schema_version": 2,
+  "title": "OkieOTSec OT/ICS Resources",
+  "research_date": "2026-10-12",
+  "counts": {
+    "free": 98,
+    "paid": 6,
+    "total": 104
+  },
+  "resources": [
+    {
+      "id": "R001",
+      "category": "Automation fundamentals",
+      "title": "Lessons in Industrial Instrumentation — Tony R. Kuphaldt",
+      "url": "https://www.ibiblio.org/kuphaldt/socratic/sinst/doc/liii.html",
+      "level": "Foundation → Practitioner",
+      "summary": "An extensive open textbook covering industrial measurement, control loops, instrumentation, PLCs, and process safety. Available as downloadable material for deeper study.",
+      "practical_use": "Learn what sensors, actuators, and control systems actually do before analyzing their security.",
+      "cost_group": "free",
+      "access": "Free downloadable textbook; select the stable edition",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R002",
+      "category": "Automation fundamentals",
+      "title": "Lessons in Electric Circuits — All About Circuits",
+      "url": "https://www.allaboutcircuits.com/textbook/",
+      "level": "Foundation",
+      "summary": "A free electrical and electronics textbook covering DC/AC circuits, semiconductors, digital circuits, and practical experiments.",
+      "practical_use": "Build the electrical background needed to understand industrial I/O and field devices.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation"
+      ]
+    },
+    {
+      "id": "R003",
+      "category": "Automation fundamentals",
+      "title": "AutomationDirect free PLC training",
+      "url": "https://www.automationdirect.com/programmable-logic-controllers/plc-training",
+      "level": "Foundation → Practitioner",
+      "summary": "Video libraries introduce PLC control and provide product-specific instruction for AutomationDirect controller families. The provider also links free programming software.",
+      "practical_use": "Learn scan cycles, I/O, ladder logic, and basic controller programming.",
+      "cost_group": "free",
+      "access": "Training free; registration may be required; physical controllers are extra",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R004",
+      "category": "Automation fundamentals",
+      "title": "Inductive University — Ignition",
+      "url": "https://inductiveautomation.com/resources/video/inductive-university",
+      "level": "Foundation → Practitioner",
+      "summary": "Free online training for Ignition, a widely used SCADA platform. Lessons explain the software and its use in industrial visualization and automation.",
+      "practical_use": "Understand SCADA projects, operator interfaces, data collection, and application structure.",
+      "cost_group": "free",
+      "access": "Training free; account for progress/credentials; production Ignition licensing separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R005",
+      "category": "Automation fundamentals",
+      "title": "Siemens SCE learning and training documents",
+      "url": "https://www.siemens.com/en-us/content/sce-educational-institutions/learning-modules/",
+      "level": "Foundation → Practitioner",
+      "summary": "Modular educational materials teach Siemens automation technologies through documents and projects. Modules can be selected according to existing knowledge.",
+      "practical_use": "Study Siemens PLC engineering workflows and build structured automation exercises.",
+      "cost_group": "free",
+      "access": "Documents free with Siemens ID and extended SiePortal rights; software/hardware for exercises may cost extra",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R006",
+      "category": "Automation fundamentals",
+      "title": "RealPars public videos",
+      "url": "https://www.youtube.com/@RealPars",
+      "level": "Foundation",
+      "summary": "Short public videos explain industrial automation components and concepts with visual examples. The public channel is separate from the subscription course catalog.",
+      "practical_use": "Quickly understand PLCs, sensors, control panels, and common automation terminology.",
+      "cost_group": "free",
+      "access": "Public videos free; full structured courses paid",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "evidence_url": "https://www.realpars.com/",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation"
+      ]
+    },
+    {
+      "id": "R007",
+      "category": "Automation fundamentals",
+      "title": "SolisPLC free plan",
+      "url": "https://www.solisplc.com/join",
+      "level": "Foundation",
+      "summary": "An always-free plan supplies limited access to basic automation courses and projects. The broader PLC and robotics course libraries require paid plans.",
+      "practical_use": "Sample introductory PLC instruction before buying hardware or a training subscription.",
+      "cost_group": "free",
+      "access": "Free account; limited basic courses/projects; no credit card advertised as required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation"
+      ]
+    },
+    {
+      "id": "R008",
+      "category": "Automation fundamentals",
+      "title": "CODESYS Development System",
+      "url": "https://www.codesys.com/products/engineering/development-system/",
+      "level": "Foundation → Practitioner",
+      "summary": "A freely downloadable IEC 61131-3 development environment for creating industrial control programs. It gives learners exposure to a real automation engineering tool.",
+      "practical_use": "Practice PLC programming and explore project structure and control logic.",
+      "cost_group": "free",
+      "access": "IDE free; store registration may be required; target runtimes and add-ons can require licenses",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R009",
+      "category": "Security learning and reference",
+      "title": "CISA introductory ICS online modules",
+      "url": "https://ics-training.inl.gov/",
+      "level": "Foundation",
+      "summary": "The CISA catalog lists OPSEC and 210W modules covering ICS components, IT/OT differences, risk, threats, vulnerabilities, impacts, and defense in depth.",
+      "practical_use": "Use the introductory modules as a structured bridge from IT security to OT.",
+      "cost_group": "free",
+      "access": "No tuition; registration and critical-infrastructure audience/eligibility conditions apply",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "evidence_url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/41d85e1",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation"
+      ]
+    },
+    {
+      "id": "R010",
+      "category": "Security learning and reference",
+      "title": "CISA ICS300 — Advanced Cybersecurity for ICS",
+      "url": "https://ics-training.inl.gov/",
+      "level": "Practitioner",
+      "summary": "An on-demand online course focused on skills for protecting ICS and OT networks. CISA lists it as a prerequisite for the in-person ICS301 course.",
+      "practical_use": "Build technical readiness for more involved ICS security exercises.",
+      "cost_group": "free",
+      "access": "No tuition; portal account and eligibility conditions apply",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "evidence_url": "https://www.cisa.gov/ics-training-calendar",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R011",
+      "category": "Security learning and reference",
+      "title": "CISA ICS401 — Industrial Control Systems Evaluation",
+      "url": "https://ics-training.inl.gov/",
+      "level": "Practitioner → Specialist",
+      "summary": "CISA offers industrial control system evaluation training online and in person. The online catalog entry is an option for learning assessment-oriented ICS security.",
+      "practical_use": "Develop assessment vocabulary and a structured approach to evaluating industrial environments.",
+      "cost_group": "free",
+      "access": "No tuition for online course; portal registration/eligibility; in-person format separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "evidence_url": "https://www.cisa.gov/ics-training-calendar",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R012",
+      "category": "Security learning and reference",
+      "title": "CISA FRE2115 — ICS Cybersecurity Landscape for Managers",
+      "url": "https://ics-training.inl.gov/",
+      "level": "Program lead",
+      "summary": "An on-demand offering aimed at managers in the industrial cybersecurity landscape rather than solely hands-on technical operators.",
+      "practical_use": "Give managers and program stakeholders an entry point into ICS cybersecurity.",
+      "cost_group": "free",
+      "access": "No tuition; portal registration and eligibility conditions apply",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "evidence_url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/41d85e1",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R013",
+      "category": "Security learning and reference",
+      "title": "CISA/INL in-person ICS301 and ICS311",
+      "url": "https://www.cisa.gov/ics-training-calendar",
+      "level": "Practitioner → Specialist",
+      "summary": "Instructor-led ICS301 includes a red/blue exercise; ICS311 focuses on detecting an attacker. These offer hands-on experience beyond self-paced reading.",
+      "practical_use": "Practice technical defense and investigation in an industrial training environment.",
+      "cost_group": "free",
+      "access": "No tuition; prerequisites, approval, dates, and seats apply; travel/lodging are extra",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "evidence_url": "https://inl.gov/national-security/ics-cybersecurity-training",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R014",
+      "category": "Security learning and reference",
+      "title": "SANS ICS Cybersecurity Field Manuals",
+      "url": "https://www.sans.org/mlp/ics-field-manual",
+      "level": "Foundation → Practitioner",
+      "summary": "Volumes 1–3 introduce and organize ICS security concepts in a compact practitioner reference format.",
+      "practical_use": "Use as a glossary and desk reference while learning architecture and defensive practice.",
+      "cost_group": "free",
+      "access": "Free resource; download form or account may be required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R015",
+      "category": "Security learning and reference",
+      "title": "The Five ICS Cybersecurity Critical Controls — SANS",
+      "url": "https://www.sans.org/white-papers/five-ics-cybersecurity-critical-controls",
+      "level": "Practitioner / Program lead",
+      "summary": "A strategy paper explains five ICS priorities: incident response, defensible architecture, visibility, secure remote access, and risk-based vulnerability management.",
+      "practical_use": "Turn a broad OT program into a short set of defensible priorities.",
+      "cost_group": "free",
+      "access": "Free paper; download form or login may apply",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R016",
+      "category": "Security learning and reference",
+      "title": "SANS Industrial NSM and Incident Response Cheat Sheet",
+      "url": "https://www.sans.org/posters/industrial-network-security-monitoring-incident-response-cheat-sheet",
+      "level": "Practitioner",
+      "summary": "A compact reference provides guidance for network security monitoring and incident response in control system environments.",
+      "practical_use": "Keep an OT-oriented monitoring and response reference alongside incident procedures.",
+      "cost_group": "free",
+      "access": "Free poster/PDF; download form or account may apply",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R017",
+      "category": "Security learning and reference",
+      "title": "ISA/IEC 62443 Quick Start Guide and series overview",
+      "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards",
+      "level": "Foundation → Program lead",
+      "summary": "ISA's overview and linked Quick Start Guide explain the organization and purpose of the 62443 series and how to navigate its documents.",
+      "practical_use": "Understand which parts concern asset owners, service providers, systems, and products.",
+      "cost_group": "free",
+      "access": "Overview/guide free; normative standards are separate licensed documents",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R018",
+      "category": "Security learning and reference",
+      "title": "S4 conference session recordings",
+      "url": "https://s4xevents.com/s4x23/",
+      "level": "Practitioner → Specialist",
+      "summary": "Public recordings of industry talks cover industrial security research, operational problems, architecture, and program decisions. The event page links the S4 Events video channel.",
+      "practical_use": "Learn from technical presentations and compare practitioners' approaches to difficult OT problems.",
+      "cost_group": "free",
+      "access": "Published recordings free; attending the conference is paid",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R019",
+      "category": "Frameworks and architecture",
+      "title": "NIST SP 800-82 Revision 3 — Guide to OT Security",
+      "url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "level": "Foundation → Specialist",
+      "summary": "The final OT security guide explains OT characteristics, architectures, threats, and safeguards, with attention to performance, reliability, and safety constraints.",
+      "practical_use": "Use as the central reference for architecture reviews, control selection, and program documentation.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "publication_status": "Final, September 2023",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R020",
+      "category": "Frameworks and architecture",
+      "title": "NIST SP 800-82 Revision 4 — initial public draft",
+      "url": "https://csrc.nist.gov/pubs/sp/800/82/r4/ipd",
+      "level": "Practitioner / Program lead",
+      "summary": "The September 2026 draft expands sector coverage and restructures the guide around CSF 2.0, including governance.",
+      "practical_use": "Track proposed changes and prepare informed feedback; keep final guidance clearly distinguished.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "publication_status": "Initial public draft, September 21, 2026; comments due November 30, 2026",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R021",
+      "category": "Frameworks and architecture",
+      "title": "NIST Cybersecurity Framework 2.0",
+      "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final",
+      "level": "Foundation → Program lead",
+      "summary": "A cross-sector framework organizes cybersecurity outcomes around Govern, Identify, Protect, Detect, Respond, and Recover.",
+      "practical_use": "Describe target outcomes, communicate with leadership, and structure a program roadmap.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "publication_status": "Final",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R022",
+      "category": "Frameworks and architecture",
+      "title": "NIST Manufacturing Cybersecurity Profiles",
+      "url": "https://csrc.nist.gov/pubs/ir/8183/r2/ipd",
+      "level": "Practitioner / Program lead",
+      "summary": "The CSF 2.0 manufacturing profile adapts cybersecurity outcomes to manufacturing environments. Revision 2's landing page identifies the publication as an initial public draft.",
+      "practical_use": "Connect enterprise cybersecurity outcomes with manufacturing operations and risks.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "publication_status": "Rev. 2 initial public draft, September 2025; comment period closed",
+      "related_url": "https://www.nist.gov/publications/cybersecurity-framework-version-11-manufacturing-profile",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R023",
+      "category": "Frameworks and architecture",
+      "title": "CIS Controls v8.1 Industrial Control Systems Guide",
+      "url": "https://www.cisecurity.org/insights/white-papers/cis-critical-security-controls-v8-1-industrial-control-systems-ics-guide",
+      "level": "Practitioner / Program lead",
+      "summary": "An ICS-specific guide applies CIS Controls to industrial environments instead of assuming ordinary enterprise IT implementation.",
+      "practical_use": "Translate familiar safeguards into an OT-specific improvement plan.",
+      "cost_group": "free",
+      "access": "Free guide; download form may apply",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R024",
+      "category": "Frameworks and architecture",
+      "title": "CISA Cross-Sector Cybersecurity Performance Goals",
+      "url": "https://www.cisa.gov/cybersecurity-performance-goals",
+      "level": "Foundation → Program lead",
+      "summary": "A prioritized baseline of cybersecurity practices helps critical infrastructure organizations focus on actions with risk-reduction value. Covers both IT and OT.",
+      "practical_use": "Build a practical initial backlog for organizations with limited staff and budget.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher search-index evidence reviewed; direct CISA page retrieval blocked with HTTP 403; use current landing-page version",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R025",
+      "category": "Frameworks and architecture",
+      "title": "DOE Cybersecurity Capability Maturity Model — C2M2",
+      "url": "https://www.energy.gov/ceser/cybersecurity-capability-maturity-model-c2m2",
+      "level": "Practitioner / Program lead",
+      "summary": "A maturity model and self-evaluation resources help organizations assess IT/OT cybersecurity capabilities and prioritize investments. Although developed in energy, other industries can use it.",
+      "practical_use": "Run a maturity workshop and identify specific program gaps.",
+      "cost_group": "free",
+      "access": "Public model/resources free; some evaluation resources may require a request",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R026",
+      "category": "Frameworks and architecture",
+      "title": "Principles of Operational Technology Cyber Security — ASD and partners",
+      "url": "https://www.cyber.gov.au/publication/principles-of-operational-technology-cyber-security",
+      "level": "Foundation → Program lead",
+      "summary": "Joint international guidance presents six principles for decisions affecting a safe, secure OT environment.",
+      "practical_use": "Use as common ground for security, engineering, operations, and leadership.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R027",
+      "category": "Frameworks and architecture",
+      "title": "Secure Connectivity Principles for OT — ASD and partners",
+      "url": "https://www.cyber.gov.au/publication/secure-connectivity-principles-for-operational-technology",
+      "level": "Practitioner / Architect",
+      "summary": "Joint guidance addresses the security of connections into and within industrial environments.",
+      "practical_use": "Review external access, connectivity decisions, and boundary protections against a consistent reference.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "architect"
+      ]
+    },
+    {
+      "id": "R028",
+      "category": "Frameworks and architecture",
+      "title": "Foundations for OT Cybersecurity: Asset Inventory — joint guidance",
+      "url": "https://www.cisa.gov/sites/default/files/2025-08/joint-guide-foundations-for-OT-cybersecurity-asset-inventory-guidance_508c.pdf",
+      "level": "Foundation → Practitioner",
+      "summary": "A guide explains a systematic approach to OT asset inventories and supplemental taxonomies, including recommended inventory fields.",
+      "practical_use": "Create a useful inventory schema tied to function, criticality, and security activities.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "evidence_url": "https://media.defense.gov/2025/Aug/13/2003779777/-1/-1/0/JOINT-GUIDE-FOUNDATIONS-FOR-OT-CYBERSECURITY-ASSET-INVENTORY-GUIDANCE.PDF",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R029",
+      "category": "Frameworks and architecture",
+      "title": "NCSC: Creating and Maintaining a Definitive View of OT Architecture",
+      "url": "https://www.ncsc.gov.uk/collection/operational-technology/definitive-architecture-view",
+      "level": "Practitioner / Architect",
+      "summary": "Guidance helps organizations establish and maintain an accurate view of industrial architecture for both existing and new environments.",
+      "practical_use": "Improve network diagrams and the relationship between documented architecture and operational reality.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "architect"
+      ]
+    },
+    {
+      "id": "R030",
+      "category": "Frameworks and architecture",
+      "title": "NCSC: Using Privileged Access Workstations in OT",
+      "url": "https://www.ncsc.gov.uk/collection/operational-technology/using-paws-in-ot-environments",
+      "level": "Practitioner / Architect",
+      "summary": "OT-focused guidance addresses using privileged access workstations for high-risk administrative access.",
+      "practical_use": "Develop secure engineering and administration workflows.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "architect"
+      ]
+    },
+    {
+      "id": "R031",
+      "category": "Frameworks and architecture",
+      "title": "CISA Cybersecurity Evaluation Tool — CSET",
+      "url": "https://github.com/cisagov/cset",
+      "level": "Practitioner / Program lead",
+      "summary": "A freely available evaluation tool supports systematic cybersecurity assessments. The official repository provides releases, documentation, and issue tracking.",
+      "practical_use": "Organize assessment questions and record improvement priorities.",
+      "cost_group": "free",
+      "access": "Software free; deployment and local computing resources required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R032",
+      "category": "Engineering and sector guidance",
+      "title": "DOE Cyber-Informed Engineering and Implementation Guide",
+      "url": "https://www.energy.gov/ceser/cyber-informed-engineering",
+      "level": "Practitioner → Specialist",
+      "summary": "CIE incorporates cyber considerations into physical-system design and operations. The linked implementation guide supplies questions engineering teams can consider throughout the lifecycle.",
+      "practical_use": "Translate cyber threats into engineering decisions that reduce physical consequences.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R033",
+      "category": "Engineering and sector guidance",
+      "title": "INL Cyber-Informed Engineering Resource Library",
+      "url": "https://inl.gov/national-security/cie/resource-library/",
+      "level": "Practitioner → Specialist",
+      "summary": "A collection of technical materials, practical guidance, case studies, and lessons supports applying CIE principles.",
+      "practical_use": "Find deeper engineering examples after studying the CIE implementation guide.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R034",
+      "category": "Engineering and sector guidance",
+      "title": "INL Consequence-driven Cyber-informed Engineering — CCE",
+      "url": "https://inl.gov/national-security/cce/",
+      "level": "Practitioner → Specialist",
+      "summary": "Public methodology materials introduce a consequence-focused approach to protecting critical infrastructure, alongside information about training and engagements.",
+      "practical_use": "Identify critical functions and study engineering approaches to reducing high-consequence cyber risk.",
+      "cost_group": "free",
+      "access": "Public reference materials free; training dates/eligibility and engagement access are separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R035",
+      "category": "Engineering and sector guidance",
+      "title": "NERC CIP Reliability Standards",
+      "url": "https://www.nerc.com/standards/reliability-standards/cip",
+      "level": "Practitioner / Sector specialist",
+      "summary": "Official standards pages provide CIP documents and distinguish enforced versions from those scheduled for future enforcement.",
+      "practical_use": "Study electricity-sector security requirements and use the correct standard/version.",
+      "cost_group": "free",
+      "access": "Public standards free to read; applicability is sector/jurisdiction-specific",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R036",
+      "category": "Engineering and sector guidance",
+      "title": "WaterISAC 12 Cybersecurity Fundamentals and Small Systems Compendium",
+      "url": "https://www.waterisac.org/fundamentals",
+      "level": "Foundation → Program lead",
+      "summary": "Public TLP:CLEAR guides summarize cybersecurity practices for water and wastewater utilities, with a dedicated small-systems compendium. The updated collection uses 12 fundamentals.",
+      "practical_use": "Build a practical water-sector improvement plan suited to resource-constrained operators.",
+      "cost_group": "free",
+      "access": "These public PDFs free; WaterISAC membership and restricted intelligence are separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R037",
+      "category": "Engineering and sector guidance",
+      "title": "EPA Water Cybersecurity Assessments and Templates",
+      "url": "https://www.epa.gov/cyberwater/cybersecurity-assessments",
+      "level": "Foundation → Practitioner",
+      "summary": "EPA provides cybersecurity guidance, a self-assessment tool, risk-mitigation templates, and checklist fact sheets for water systems; some resources also have Spanish versions.",
+      "practical_use": "Conduct an accessible water-system assessment and document corrective actions.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R038",
+      "category": "Industrial protocol references",
+      "title": "Modbus Specifications and Implementation Guides",
+      "url": "https://www.modbus.org/modbus-specifications",
+      "level": "Practitioner → Specialist",
+      "summary": "Official protocol and implementation references provide the authoritative detail behind Modbus communication and message behavior.",
+      "practical_use": "Decode function codes, addressing, requests, and responses accurately.",
+      "cost_group": "free",
+      "access": "Public references; download/use subject to publisher terms",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R039",
+      "category": "Industrial protocol references",
+      "title": "OPC UA Online Reference",
+      "url": "https://reference.opcfoundation.org/",
+      "level": "Practitioner → Specialist",
+      "summary": "A searchable, hyperlinked reference supplies OPC UA core specifications and companion information models.",
+      "practical_use": "Understand services, information models, security concepts, and industry-specific data structures.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R040",
+      "category": "Industrial protocol references",
+      "title": "OASIS MQTT 5.0 Specification",
+      "url": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+      "level": "Practitioner → Specialist",
+      "summary": "The public MQTT standard defines publish/subscribe behavior, packet formats, and protocol features used in IoT and industrial integrations.",
+      "practical_use": "Study broker/client behavior, QoS, sessions, and protocol semantics.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R041",
+      "category": "Industrial protocol references",
+      "title": "PROFINET Technology and Application — PI North America",
+      "url": "https://us.profinet.com/document/system-description-profinet-technology-and-application/",
+      "level": "Foundation → Practitioner",
+      "summary": "A technology/system description introduces PROFINET and its place in distributed industrial automation.",
+      "practical_use": "Understand PROFINET networks before investigating or segmenting them.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R042",
+      "category": "Industrial protocol references",
+      "title": "ODVA EtherNet/IP Technology Overview",
+      "url": "https://www.odva.org/wp-content/uploads/2024/04/PUB00138R8_Ethernet.pdf",
+      "level": "Foundation → Practitioner",
+      "summary": "ODVA's public overview describes EtherNet/IP and the use of CIP in Ethernet-based industrial communication.",
+      "practical_use": "Build a working conceptual model of EtherNet/IP and its role in automation.",
+      "cost_group": "free",
+      "access": "Overview free; full specifications and some developer resources have separate access terms",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R043",
+      "category": "Labs and protocol tooling",
+      "title": "OpenPLC Editor and Simulator",
+      "url": "https://autonomylogic.com/products/openplc",
+      "level": "Foundation → Practitioner",
+      "summary": "Free open-source PLC tooling supports IEC 61131-3 programming and includes a simulator for running and debugging logic without hardware.",
+      "practical_use": "Practice control programming before assembling a networked PLC/SCADA lab.",
+      "cost_group": "free",
+      "access": "Free editor/simulator; other hosted services and hardware are separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "related_url": "https://github.com/Autonomy-Logic/openplc-editor",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R044",
+      "category": "Labs and protocol tooling",
+      "title": "Scada-LTS",
+      "url": "https://github.com/SCADA-LTS/Scada-LTS",
+      "level": "Practitioner",
+      "summary": "An open-source, web-based, multi-platform SCADA project provides code and setup documentation.",
+      "practical_use": "Build an HMI/data-acquisition lab and observe interactions with simulated field systems.",
+      "cost_group": "free",
+      "access": "Open-source software; local host and setup effort required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R045",
+      "category": "Labs and protocol tooling",
+      "title": "Node-RED",
+      "url": "https://nodered.org/about/",
+      "level": "Foundation → Practitioner",
+      "summary": "A flow-based, browser-edited programming tool connects data sources and services. Its extensible node ecosystem is useful for building industrial lab integrations.",
+      "practical_use": "Create lab data flows and connect simulated processes to dashboards or protocol clients.",
+      "cost_group": "free",
+      "access": "Open-source core; review third-party node licenses, quality, and dependencies",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R046",
+      "category": "Labs and protocol tooling",
+      "title": "PyModbus",
+      "url": "https://github.com/pymodbus-dev/pymodbus",
+      "level": "Practitioner",
+      "summary": "A Python Modbus implementation offers clients, servers, and simulation with synchronous and asynchronous APIs.",
+      "practical_use": "Generate controlled Modbus traffic and create repeatable protocol exercises.",
+      "cost_group": "free",
+      "access": "Open-source library; Python skills and local lab required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R047",
+      "category": "Labs and protocol tooling",
+      "title": "open62541 and its documentation",
+      "url": "https://open62541.org/doc/master/toc.html",
+      "level": "Practitioner → Specialist",
+      "summary": "An OPC UA implementation and detailed documentation explain services, information modeling, and client/server construction.",
+      "practical_use": "Build OPC UA lab endpoints and examine certificate/security behavior.",
+      "cost_group": "free",
+      "access": "Open-source software/docs; C/C++ build skills useful; master documentation may describe unreleased behavior",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R048",
+      "category": "Labs and protocol tooling",
+      "title": "libIEC61850 documentation and examples",
+      "url": "https://libiec61850.com/documentation/",
+      "level": "Specialist",
+      "summary": "Client/server tutorials and API documentation cover MMS and publisher/subscriber functions for GOOSE and sampled values.",
+      "practical_use": "Create IEC 61850 learning exercises and inspect substation-related communications.",
+      "cost_group": "free",
+      "access": "Documentation free; open-source library and commercial licensing options have distinct terms",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "specialist"
+      ]
+    },
+    {
+      "id": "R049",
+      "category": "Labs and protocol tooling",
+      "title": "ControlThings tools",
+      "url": "https://www.controlthings.io/tools",
+      "level": "Practitioner → Specialist",
+      "summary": "A collection of assessment tools interacts with Modbus, serial devices, embedded SPI/I2C components, and selected PLCs.",
+      "practical_use": "Explore protocol/device behavior in an isolated assessment lab.",
+      "cost_group": "free",
+      "access": "Free tool collection; hardware adapters may be required for serial/embedded exercises",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R050",
+      "category": "Labs and protocol tooling",
+      "title": "MITRE Caldera for OT",
+      "url": "https://github.com/mitre/caldera-ot",
+      "level": "Specialist",
+      "summary": "Open-source plugins extend Caldera with industrial protocol capabilities mapped to ATT&CK for ICS.",
+      "practical_use": "Emulate selected behaviors in a lab and evaluate telemetry/detections.",
+      "cost_group": "free",
+      "access": "Free plugins; substantial setup; use isolated authorized systems",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "evidence_url": "https://www.mitre.org/resources/caldera-ot",
+      "access_class": "public_free",
+      "audience_tags": [
+        "specialist"
+      ]
+    },
+    {
+      "id": "R051",
+      "category": "Labs and protocol tooling",
+      "title": "Conpot ICS/SCADA honeypot",
+      "url": "https://github.com/mushorg/conpot",
+      "level": "Practitioner → Specialist",
+      "summary": "An ICS/SCADA honeypot project provides emulated services for observing interactions and exploring deception concepts.",
+      "practical_use": "Learn how industrial service exposure appears to scanners and how to analyze honeypot events.",
+      "cost_group": "free",
+      "access": "Open-source software; host/deployment required; emulation is not a complete process testbed",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R052",
+      "category": "Labs and protocol tooling",
+      "title": "Labshock limited free tier",
+      "url": "https://labshocksecurity.com/pricing/",
+      "level": "Foundation → Practitioner",
+      "summary": "A local OT security lab platform offers real protocol and telemetry exercises. The free tier limits labs, guides, progression, and session access.",
+      "practical_use": "Try a ready-made environment before paying for extended personal practice.",
+      "cost_group": "free",
+      "access": "$0 limited tier; time restrictions; local Docker host; personal-learning license scope",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Pricing page and official repository reviewed; their wording/limits differ, so check current release and plan before deployment",
+      "related_url": "https://github.com/zakharb/labshock",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R053",
+      "category": "Monitoring and investigation",
+      "title": "Wireshark and official documentation",
+      "url": "https://www.wireshark.org/docs/",
+      "level": "Foundation → Specialist",
+      "summary": "A free packet-analysis tool and user documentation support traffic capture, filtering, and protocol inspection.",
+      "practical_use": "Analyze authorized industrial captures and learn what a controller actually exchanges.",
+      "cost_group": "free",
+      "access": "Free software/docs; live capture requires an appropriate capture point",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R054",
+      "category": "Monitoring and investigation",
+      "title": "Malcolm",
+      "url": "https://github.com/cisagov/Malcolm",
+      "level": "Practitioner",
+      "summary": "A containerized traffic-analysis suite ingests PCAPs, Zeek logs, and Suricata alerts, combining dashboards and session analysis.",
+      "practical_use": "Investigate industrial traffic offline or build passive visibility in a lab.",
+      "cost_group": "free",
+      "access": "Open-source software; local CPU/RAM/storage required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R055",
+      "category": "Monitoring and investigation",
+      "title": "Zeek and Book of Zeek",
+      "url": "https://docs.zeek.org/en/current/",
+      "level": "Practitioner → Specialist",
+      "summary": "A network security monitoring framework and manual explain deployment, generated logs, scripting, and customization.",
+      "practical_use": "Turn packet activity into structured metadata for baselining and detection.",
+      "cost_group": "free",
+      "access": "Open-source software/docs; protocol coverage depends on version/plugins",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R056",
+      "category": "Monitoring and investigation",
+      "title": "Suricata User Guide",
+      "url": "https://docs.suricata.io/en/latest/",
+      "level": "Practitioner → Specialist",
+      "summary": "Documentation explains the IDS/IPS engine, rule development, protocol handling, and EVE event output.",
+      "practical_use": "Develop and tune lab detections, then examine how alerts relate to industrial operations.",
+      "cost_group": "free",
+      "access": "Free software/docs; latest documentation can describe a development version",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R057",
+      "category": "Monitoring and investigation",
+      "title": "Security Onion",
+      "url": "https://securityonionsolutions.com/software/",
+      "level": "Practitioner → Specialist",
+      "summary": "A free and open platform combines monitoring, hunting, packet/log analysis, and case management. Commercial appliances and support are separate offerings.",
+      "practical_use": "Practice SOC workflows using captured or mirrored lab traffic.",
+      "cost_group": "free",
+      "access": "Free platform; significant hardware/storage may be needed; paid services/features separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R058",
+      "category": "Packet captures and datasets",
+      "title": "Wireshark SampleCaptures",
+      "url": "https://wiki.wireshark.org/SampleCaptures",
+      "level": "Foundation → Practitioner",
+      "summary": "A public collection of protocol captures includes industrial examples such as DNP3, alongside many other protocols.",
+      "practical_use": "Practice decoding messages without purchasing industrial hardware.",
+      "cost_group": "free",
+      "access": "Public samples; licenses/provenance vary by capture; a download is not permission to redistribute",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R059",
+      "category": "Packet captures and datasets",
+      "title": "ICS-pcap collection",
+      "url": "https://github.com/automayt/ICS-pcap",
+      "level": "Practitioner",
+      "summary": "A community-maintained collection indexes ICS/SCADA packet captures for protocol study.",
+      "practical_use": "Find industrial examples for Wireshark and monitoring-tool exercises.",
+      "cost_group": "free",
+      "access": "Public collection; some downloads use Git LFS; verify each capture's provenance/license",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R060",
+      "category": "Threat intelligence and research",
+      "title": "MITRE ATT&CK for ICS",
+      "url": "https://attack.mitre.org/matrices/ics/",
+      "level": "Practitioner → Specialist",
+      "summary": "A public knowledge base describes observed adversary behaviors in industrial environments, with techniques and supporting references.",
+      "practical_use": "Map incidents and detection coverage to specific behaviors rather than generic threat labels.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R061",
+      "category": "Threat intelligence and research",
+      "title": "CISA ICS Advisories",
+      "url": "https://www.cisa.gov/news-events/ics-advisories",
+      "level": "Practitioner",
+      "summary": "Official advisories publish affected products, technical vulnerability details, and mitigation information for industrial systems.",
+      "practical_use": "Check whether an advisory affects installed assets and track vendor remedies.",
+      "cost_group": "free",
+      "access": "Free; no account required",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher bulletin reviewed; direct advisory index retrieval blocked with HTTP 403",
+      "evidence_url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/422d143",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R062",
+      "category": "Threat intelligence and research",
+      "title": "Dragos public research and Year in Review",
+      "url": "https://www.dragos.com/resources",
+      "level": "Practitioner / Program lead",
+      "summary": "Public reports, technical research, and annual reviews discuss industrial threats, vulnerability observations, and field findings.",
+      "practical_use": "Inform threat modeling, leadership briefings, and the selection of defensive priorities.",
+      "cost_group": "free",
+      "access": "Public articles free; some reports require an email/form; paid intelligence/platform separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R063",
+      "category": "Threat intelligence and research",
+      "title": "Claroty Team82 research",
+      "url": "https://www.claroty.com/team82/research",
+      "level": "Practitioner → Specialist",
+      "summary": "Public technical research covers industrial and other cyber-physical vulnerabilities, protocol behavior, and exploitation findings.",
+      "practical_use": "Understand device-level weaknesses and build better vendor/asset risk discussions.",
+      "cost_group": "free",
+      "access": "Public articles free; some downloads may require a form; vendor perspective",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R064",
+      "category": "Threat intelligence and research",
+      "title": "Nozomi Networks research reports",
+      "url": "https://www.nozominetworks.com/research-reports",
+      "level": "Practitioner / Program lead",
+      "summary": "Public reports cover OT/IoT security trends and research from a commercial security vendor.",
+      "practical_use": "Compare findings with other intelligence sources and improve monitoring priorities.",
+      "cost_group": "free",
+      "access": "Free report access may require registration/email; paid products separate",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher search-index evidence reviewed; direct report-index retrieval failed; report forms not exercised",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R065",
+      "category": "Threat intelligence and research",
+      "title": "Kaspersky ICS CERT public research",
+      "url": "https://ics-cert.kaspersky.com/",
+      "level": "Practitioner → Specialist",
+      "summary": "Public reports and technical articles examine industrial threats, malware, and vulnerability research.",
+      "practical_use": "Compare threat observations and study technical investigations.",
+      "cost_group": "free",
+      "access": "Public reading free; commercial products/intelligence separate; dataset and vendor perspective matter",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R066",
+      "category": "Threat intelligence and research",
+      "title": "Operational Technology Cybersecurity Coalition resources",
+      "url": "https://www.otcybercoalition.org/resources",
+      "level": "Program lead / Policy",
+      "summary": "Public papers address OT cybersecurity policy and standards-based approaches. OTCC represents a coalition of industry companies.",
+      "practical_use": "Track policy arguments and standards alignment discussions relevant to program leadership.",
+      "cost_group": "free",
+      "access": "Public resources free; coalition membership is separate; policy/industry perspective",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R067",
+      "category": "Incident response and exercises",
+      "title": "CISA Tabletop Exercise Packages — CTEPs",
+      "url": "https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages",
+      "level": "Practitioner / Program lead",
+      "summary": "Exercise packages help organizations run discussion-based scenarios and assess response capabilities.",
+      "practical_use": "Build a tabletop exercise and add site-specific process, safety, and restoration decisions.",
+      "cost_group": "free",
+      "access": "Public exercise resources free; facilitation and customization take staff time",
+      "cost": "$0",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher services-page evidence reviewed; individual package availability varies",
+      "evidence_url": "https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R068",
+      "category": "Affordable paid resources",
+      "title": "Industrial Cybersecurity, Second Edition — Pascal Ackerman",
+      "url": "https://www.packtpub.com/en-us/product/industrial-cybersecurity-9781800202092",
+      "level": "Practitioner → Specialist",
+      "summary": "A substantial technical book covers architecture, monitoring, threat intelligence, SIEM, response, assessments, and threat hunting.",
+      "practical_use": "Choose for hands-on defensive depth and building an ICS monitoring practice.",
+      "cost_group": "paid",
+      "access": "One-time purchase; 2021 edition; lab/software instructions and standards references need version checking",
+      "cost": "Observed: eBook $39.59; paperback $43.99 (discounted); list $43.99/$54.99",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "priority": "Strong technical value",
+      "access_class": "paid",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R069",
+      "category": "Affordable paid resources",
+      "title": "Practical Industrial Cybersecurity — Charles J. Brooks and Philip A. Craig Jr.",
+      "url": "https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/practical-industrial-cybersecurity-978-1-119-88302-9",
+      "level": "Foundation → Practitioner",
+      "summary": "A broad ICS/Industry 4.0/IIoT book covers architecture, hardening, governance, assessment, monitoring, response, and continuity, with review questions.",
+      "practical_use": "Choose for a structured entry into OT security and a broad reference.",
+      "cost_group": "paid",
+      "access": "One-time book purchase; 2022 edition; regional format/checkout pricing may differ",
+      "cost": "Observed publisher listing: $42.90",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "priority": "Strong introductory value",
+      "access_class": "paid",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R070",
+      "category": "Affordable paid resources",
+      "title": "Labshock Pro — individual personal use",
+      "url": "https://labshocksecurity.com/pricing/",
+      "level": "Foundation → Practitioner",
+      "summary": "The paid personal plan removes session limits and unlocks the full lab progression, guides, quests, and scenarios.",
+      "practical_use": "Choose when ready-made local industrial exercises are more useful than assembling a lab from scratch.",
+      "cost_group": "paid",
+      "access": "Recurring plan; own hardware required; one named individual; company deployment and training delivery require organization licensing",
+      "cost": "Introductory: $24/month or $14/month billed yearly ($168/year); standard comparison shows $30/month or $20/month yearly ($240/year)",
+      "last_reviewed": "2026-10-12",
+      "verification": "Current pricing cards and standard-rate comparison reviewed; introductory offer duration not stated",
+      "priority": "Strong lab value",
+      "access_class": "paid",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R071",
+      "category": "Affordable paid resources",
+      "title": "Factory I/O — Starter or Modbus & OPC editions",
+      "url": "https://factoryio.com/editions/",
+      "level": "Foundation → Practitioner",
+      "summary": "A 3D factory simulator provides visible process behavior for PLC exercises. Starter includes an integrated control simulator; Modbus & OPC provides external protocol connectivity.",
+      "practical_use": "Choose Starter for control fundamentals or Modbus & OPC for protocol-connected security labs.",
+      "cost_group": "paid",
+      "access": "Windows software; 30-day Ultimate trial separate; edition determines connectivity; taxes and currency conversion extra",
+      "cost": "Starter: €40/year or €109 once; Modbus & OPC: €17/month, €158/year, or €435 once",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "priority": "Strong process-visualization value",
+      "access_class": "paid",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R072",
+      "category": "Affordable paid resources",
+      "title": "Packt Premium monthly subscription",
+      "url": "https://www.packtpub.com/en-us/subscribe-premium-access",
+      "level": "Practitioner → Specialist",
+      "summary": "A broad technical library subscription includes online access plus a monthly credit for an eligible eBook/video to download and keep.",
+      "practical_use": "Consider when studying multiple titles; compare one month with purchasing the specific book directly.",
+      "cost_group": "paid",
+      "access": "Recurring subscription; confirm target book/format and credit eligibility; broad library, not a dedicated OT curriculum",
+      "cost": "Advertised: $29.99/month",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher search-index evidence reviewed; direct page retrieval failed; checkout price not exercised",
+      "priority": "Optional alternative to individual book purchases",
+      "access_class": "paid",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R073",
+      "category": "Affordable paid resources",
+      "title": "Industrial Cybersecurity: Case Studies and Best Practices — Steve Mustard",
+      "url": "https://www.wiley.com/en-us/shop/international-society-of-automation-c-6473",
+      "level": "Practitioner / Program lead",
+      "summary": "A practical industrial-security book follows governance through design, implementation, and operation, using case studies.",
+      "practical_use": "Choose for program leadership and applied management; try a library copy first if budget is tight.",
+      "cost_group": "paid",
+      "access": "One-time purchase; format prices vary; upper end of this catalog's budget range",
+      "cost": "US publisher catalog: starting at $95",
+      "last_reviewed": "2026-10-12",
+      "verification": "Publisher page or publisher search-index evidence reviewed; access and software not independently exercised",
+      "priority": "Budget stretch",
+      "related_url": "https://www.isa.org/standards-and-publications/isa-publications/isa-books/authors-corner/author-q-a-industrial-cybersecurity-case-studies-a",
+      "access_class": "paid",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R074",
+      "category": "Security learning and reference",
+      "title": "SANS Introduction to ICS Security series",
+      "url": "https://www.sans.org/blog/introduction-to-ics-security",
+      "level": "Foundation",
+      "summary": "A free article series introduces industrial systems and the distinctive challenges of securing them. Later installments cover remote-access connections and protective practices.",
+      "practical_use": "Give people entering OT a short reading route before longer standards and technical books.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Public articles free; paid course promotions are separate",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        84
+      ],
+      "manual_printed_pages": [
+        80
+      ],
+      "related_url": "https://www.sans.org/blog/introduction-to-ics-security-part-3",
+      "recommended": true,
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation"
+      ]
+    },
+    {
+      "id": "R075",
+      "category": "Security learning and reference",
+      "title": "SANS ICS Site Visit Plan",
+      "url": "https://www.sans.org/blog/sans-ics-site-visit-plan",
+      "level": "Foundation → Practitioner / Program lead",
+      "summary": "A practical guide covers visit preparation, coordination with safety and engineering, plant-floor discussions, asset inventory fields, and passive traffic analysis.",
+      "practical_use": "Prepare a useful site-assessment checklist and gather operational context, especially when visiting unfamiliar plants.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Public guide free; field activities require site permissions and safety procedures",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        61,
+        84
+      ],
+      "manual_printed_pages": [
+        57,
+        80
+      ],
+      "recommended": true,
+      "publication_status": "2021 article; use current site procedures",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R076",
+      "category": "Frameworks and architecture",
+      "title": "The Sliding Scale of Cyber Security — Robert M. Lee",
+      "url": "https://www.sans.org/white-papers/36240",
+      "level": "Practitioner / Program lead",
+      "summary": "A conceptual model distinguishes architecture, passive defense, active defense, intelligence, and offense. It supports discussion of how security actions and investments build on one another.",
+      "practical_use": "Explain why architecture and visibility should underpin later hunting and intelligence investments.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free whitepaper; download/account requirements may apply",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        31,
+        54,
+        82
+      ],
+      "manual_printed_pages": [
+        27,
+        50,
+        78
+      ],
+      "publication_status": "2015 foundational paper; conceptual model, not a compliance standard",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R077",
+      "category": "Threat intelligence and research",
+      "title": "The Industrial Control System Cyber Kill Chain — Assante and Lee",
+      "url": "https://www.sans.org/white-papers/36297",
+      "level": "Practitioner → Specialist",
+      "summary": "A two-stage model explains adversary campaigns against ICS, supported by Havex and Stuxnet case studies.",
+      "practical_use": "Analyze the steps between an initial compromise and an attack on a physical process; identify intervention points.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free whitepaper; download/account requirements may apply",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        65,
+        82
+      ],
+      "manual_printed_pages": [
+        61,
+        78
+      ],
+      "recommended": true,
+      "publication_status": "2015 foundational paper; supplement with current ATT&CK for ICS",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R078",
+      "category": "Security learning and reference",
+      "title": "The Differences Between ICS/OT and IT Security — SANS poster",
+      "url": "https://www.sans.org/posters/the-differences-between-ics-ot-and-it-security",
+      "level": "Foundation / Program lead",
+      "summary": "A visual comparison explains differences in mission, operational context, priorities, and risk between traditional IT and industrial security.",
+      "practical_use": "Brief IT staff and leadership on why security decisions need operational and engineering context.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free downloadable poster; account/download requirements may apply",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        84
+      ],
+      "manual_printed_pages": [
+        80
+      ],
+      "recommended": true,
+      "publication_status": "Publisher landing page currently dated May 2025; manual referenced an earlier version",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R079",
+      "category": "Security learning and reference",
+      "title": "Control Systems Are a Target — SANS poster",
+      "url": "https://www.sans.org/posters/control-systems-are-a-target",
+      "level": "Foundation → Practitioner",
+      "summary": "An awareness poster illustrates access paths into ICS and layered defenses using the Purdue model.",
+      "practical_use": "Support plant-floor awareness conversations and explain why engineering assets attract attackers.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free downloadable poster; account/download requirements may apply",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        12,
+        80
+      ],
+      "manual_printed_pages": [
+        8,
+        76
+      ],
+      "publication_status": "Publisher landing page currently dated May 2025; manual referenced an earlier version",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R080",
+      "category": "Monitoring and investigation",
+      "title": "NetworkMiner — free edition",
+      "url": "https://www.netresec.com/?page=NetworkMiner",
+      "level": "Practitioner",
+      "summary": "A passive network-forensics application identifies hosts and reconstructs supported artifacts from packet captures. The free open-source edition is distinct from NetworkMiner Professional.",
+      "practical_use": "Examine hosts, sessions, and supported extracted files in authorized captures during an investigation.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free open-source edition; feature limits compared with Professional; primarily Windows/.NET tooling",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        53
+      ],
+      "manual_printed_pages": [
+        49
+      ],
+      "evidence_url": "https://www.netresec.com/?page=NetworkMinerSourceCode",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R081",
+      "category": "Monitoring and investigation",
+      "title": "Snort engine and documentation",
+      "url": "https://snort.org/",
+      "level": "Practitioner → Specialist",
+      "summary": "A free open-source detection engine evaluates traffic against rules and can operate as a sniffer, logger, or IDS/IPS.",
+      "practical_use": "Build a lab IDS and compare alerts against known industrial protocol activity.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Engine free; Community rules available; registered/subscriber rule access differs; verify protocol support for your version",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        52
+      ],
+      "manual_printed_pages": [
+        48
+      ],
+      "evidence_url": "https://snort.org/faq/how-is-the-snort-software-licensed",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R082",
+      "category": "Labs and protocol tooling",
+      "title": "Tcpreplay",
+      "url": "https://tcpreplay.appneta.com/",
+      "level": "Practitioner → Specialist",
+      "summary": "A free suite edits and replays previously captured network traffic with selectable timing/rates.",
+      "practical_use": "Run repeatable tests of lab IDS signatures and traffic-analysis pipelines.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "GPLv3 tools free; replay onto isolated authorized lab interfaces, since traffic is actually transmitted",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        52
+      ],
+      "manual_printed_pages": [
+        48
+      ],
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R083",
+      "category": "Monitoring and investigation",
+      "title": "TShark command-line reference",
+      "url": "https://www.wireshark.org/docs/man-pages/tshark",
+      "level": "Practitioner → Specialist",
+      "summary": "Wireshark's command-line analyzer uses its packet-dissection code for capture and offline analysis, enabling filtering and field extraction.",
+      "practical_use": "Automate extraction of controller addresses, protocol fields, and communication patterns from PCAPs.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free tool/docs; included in the Wireshark ecosystem; field names and capabilities depend on version",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        45,
+        53
+      ],
+      "manual_printed_pages": [
+        41,
+        49
+      ],
+      "related_url": "https://www.wireshark.org/docs/man-pages/",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R084",
+      "category": "Incident response and exercises",
+      "title": "REMnux malware-analysis toolkit",
+      "url": "https://docs.remnux.org/",
+      "level": "Practitioner → Specialist",
+      "summary": "A Linux distribution and documented toolkit collect free tools for examining malicious software and related artifacts.",
+      "practical_use": "Analyze suspicious files recovered from engineering workstations and other OT-supporting computers in a dedicated malware lab.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free toolkit; local VM/storage required; general malware analysis, not a universal PLC-forensics toolkit",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        70
+      ],
+      "manual_printed_pages": [
+        66
+      ],
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R085",
+      "category": "Incident response and exercises",
+      "title": "SANS SIFT Workstation",
+      "url": "https://www.sans.org/tools/sift-workstation",
+      "level": "Practitioner → Specialist",
+      "summary": "A free open-source workstation collects incident-response and digital-forensics tools for detailed examinations.",
+      "practical_use": "Investigate disk images and artifacts from industrial Windows/Linux systems or supporting infrastructure.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Toolkit free; download/account requirements may apply; local VM/storage required; paid SANS training separate",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        70
+      ],
+      "manual_printed_pages": [
+        66
+      ],
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R086",
+      "category": "Threat intelligence and research",
+      "title": "CRASHOVERRIDE analysis and lessons — Dragos",
+      "url": "https://www.dragos.com/blog/ukraine-power-grid-cyberattack-crashoverride-10-year-lessons",
+      "level": "Practitioner → Specialist / Electric sector",
+      "summary": "Public Dragos analysis discusses the Ukraine power-grid attacks, CRASHOVERRIDE, and lessons for industrial defense. It provides a current accessible route into the case referenced by the manual.",
+      "practical_use": "Study protocol-aware malware and connect technical behavior with potential operational consequences.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Public article free; vendor research perspective",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official article found; original manual-linked CrashOverride-01.pdf could not be retrieved",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        60
+      ],
+      "manual_printed_pages": [
+        56
+      ],
+      "publication_status": "2026 retrospective of historical incidents",
+      "manual_original_url": "https://www.dragos.com/wp-content/uploads/CrashOverride-01.pdf",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist",
+        "electric-sector"
+      ]
+    },
+    {
+      "id": "R087",
+      "category": "Threat intelligence and research",
+      "title": "PIPEDREAM / CHERNOVITE public whitepaper — Dragos",
+      "url": "https://hub.dragos.com/whitepaper/chernovite-pipedream",
+      "level": "Practitioner → Specialist",
+      "summary": "A public whitepaper analyzes a modular ICS attack framework and supplies mitigation guidance. The public threat-group page offers additional context.",
+      "practical_use": "Understand industrial attack capabilities and review protocol exposure and detection assumptions.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Whitepaper advertised free; form/email may be required; paid intelligence/platform separate",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official report landing page and threat-group page indexed; original direct PDF retrieval failed",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        61
+      ],
+      "manual_printed_pages": [
+        57
+      ],
+      "related_url": "https://www.dragos.com/threat/chernovite",
+      "publication_status": "Historical research; distinguish described capability from observed deployment",
+      "manual_original_url": "https://hub.dragos.com/hubfs/116-Whitepapers/Dragos_ChernoviteWP_v2b.pdf",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R088",
+      "category": "Monitoring and investigation",
+      "title": "tcpdump",
+      "url": "https://github.com/the-tcpdump-group/tcpdump",
+      "level": "Practitioner",
+      "summary": "A lightweight command-line packet-capture and network-dissection tool provides PCAPs for later analysis.",
+      "practical_use": "Collect traffic from an approved capture point when a graphical workstation is impractical.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Open-source software; live capture requires suitable privileges and an authorized TAP/SPAN/interface",
+      "last_reviewed": "2026-10-12",
+      "verification": "Official publisher/project page or publisher search-index evidence reviewed; software and download flows not exercised",
+      "discovery_source": "User-supplied SANS 2023 ICS Field Manual, Volumes 1–3, r3.1",
+      "manual_pdf_pages": [
+        49
+      ],
+      "manual_printed_pages": [
+        45
+      ],
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R089",
+      "category": "Threat intelligence and research",
+      "title": "MITRE EMB3D threat model for embedded devices",
+      "url": "https://emb3d.mitre.org/",
+      "level": "Practitioner → Specialist",
+      "summary": "A MITRE knowledge base of cyber threats to embedded devices, such as controllers and field devices, paired with mitigations. It gives device-level threats a common vocabulary.",
+      "practical_use": "Threat-model a PLC, RTU or gateway by looking up the device-level threats that apply and the mitigations that answer them.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free to read; MITRE Terms of Use apply; no account indicated",
+      "last_reviewed": "2026-10-13",
+      "verification": "Official site fetched on October 13, 2026; version and Terms of Use link observed; downloads and any data exports not exercised",
+      "publication_status": "Living knowledge base; the site showed version 2.0.2 (June 1, 2026)",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist",
+        "architect"
+      ]
+    },
+    {
+      "id": "R090",
+      "category": "Monitoring and investigation",
+      "title": "CISA ICSNPP — industrial protocol parsers for Zeek",
+      "url": "https://github.com/cisagov/ICSNPP",
+      "level": "Practitioner → Specialist",
+      "summary": "Open-source parsers that teach Zeek to read industrial protocols, including BACnet, EtherNet/IP and CIP, S7comm, OPC UA Binary and Synchrophasor (C37.118), turning captured traffic into structured logs.",
+      "practical_use": "Add industrial protocol visibility to a Zeek lab or monitoring pipeline, then compare the logs with the packet captures they came from.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Open source (BSD-3-Clause); needs a working Zeek installation, build effort and your own packet captures",
+      "last_reviewed": "2026-10-13",
+      "verification": "Official repository page fetched on October 13, 2026; protocol list and license observed; last-update date not shown on the page; parsers not built or run",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R091",
+      "category": "Labs and protocol tooling",
+      "title": "Snap7 — open-source S7 communication library",
+      "url": "https://snap7.sourceforge.net/",
+      "level": "Practitioner → Specialist",
+      "summary": "An open-source Ethernet communication suite with client, server and partner objects for talking to Siemens S7 controllers from your own code. It is multi-platform and usable from several languages, including C#, Pascal, LabVIEW and C++.",
+      "practical_use": "Write small scripts that read from or serve S7 data in an isolated lab, and learn what S7 communication looks like on the wire.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free download from the project site; the license name was not shown on the pages retrieved, so confirm it before redistributing; check the project documentation for supported controllers and settings; use only on systems you own or are authorized to test",
+      "last_reviewed": "2026-10-13",
+      "verification": "Project site fetched on October 13, 2026 (a framed site; the main description and platform list were read); software not downloaded or run",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R092",
+      "category": "Labs and protocol tooling",
+      "title": "GRFICS — Graphical Realism Framework for Industrial Control Simulations",
+      "url": "https://github.com/djformby/GRFICS",
+      "level": "Practitioner",
+      "summary": "A virtual ICS lab with a 3D chemical-process simulation, a soft PLC and an HMI, run as three virtual machines. It is built for practicing attacks such as command injection and man-in-the-middle, and defenses such as segmentation, firewall rules and intrusion-detection rules.",
+      "practical_use": "Build a self-contained attack-and-defend exercise with visible physical consequences, entirely on a host-only network.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free open source (GPL-3.0; the 3D simulation is supplied only as a compiled executable); about 25 GB of disk, 8 GB of RAM and a quad-core CPU; uses older Ubuntu 16.04 images, and the author no longer hosts pre-built VMs, so setup is from scratch",
+      "last_reviewed": "2026-10-13",
+      "verification": "Official repository page fetched on October 13, 2026; requirements, license and notices observed; no last-update date shown; not built or run",
+      "publication_status": "Older project; its README points to a Version 2 in a separate repository. The PLC is intentionally vulnerable, so run it only on an isolated host-only network",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R093",
+      "category": "Security learning and reference",
+      "title": "Mike Holcomb — free OT/ICS cybersecurity course content, e-books and infographics",
+      "url": "https://www.mikeholcomb.com/",
+      "level": "Foundation → Practitioner",
+      "summary": "An independent OT/ICS security consultant and educator's site lists free e-books on getting started in OT/ICS cybersecurity, more than 30 infographics, and over 50 YouTube videos, including more than 40 hours of free course content in its Getting Started in ICS/OT Cyber Security playlists.",
+      "practical_use": "Follow a structured, video-based self-study path that connects IT security skills to industrial systems.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free videos, e-books and infographics (no account stated for these); an optional newsletter is offered; paid classes, trainings and consulting are separate; TryHackMe rooms are listed but their cost was not stated",
+      "last_reviewed": "2026-10-13",
+      "verification": "Site fetched on October 13, 2026; the free-content claims are the site's own description; videos and e-books not opened or evaluated; prices for paid classes not shown",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "R094",
+      "category": "Security learning and reference",
+      "title": "Unsolicited Response podcast — Dale Peterson",
+      "url": "https://dale-peterson.com/podcast-2/",
+      "level": "Practitioner → Program lead",
+      "summary": "An interview podcast on OT and ICS security hosted by Dale Peterson, mixing his opening commentary, guest conversations and listener questions.",
+      "practical_use": "Hear practitioners and vendors discuss industry problems, then follow up on topics relevant to your own program.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Audio episodes through the website, an RSS feed and common podcast apps; podcast directories list it as free to listen; sponsor and vendor perspectives apply",
+      "last_reviewed": "2026-10-13",
+      "verification": "Podcast page fetched on October 13, 2026; free-to-listen status and activity dates come from podcast-directory listings; no episodes were listened to",
+      "publication_status": "Directory listings show episodes through 2025; check the feed for current activity",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R095",
+      "category": "Security learning and reference",
+      "title": "ICS Village",
+      "url": "https://www.icsvillage.com/",
+      "level": "Foundation → Practitioner",
+      "summary": "A non-profit that builds hands-on awareness and training for industrial security. Its site lists free online resources, including open courseware, capture-the-flag challenges, an OT trainer-kit build guide and plant-level case studies, alongside a podcast and in-person demonstrations at conferences.",
+      "practical_use": "Use the challenges and trainer-kit guide for hands-on practice, and the case studies to explain plant-level risk to others.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Online resources described as free to access; registration, fees and capacity for in-person trainings and events were not stated; hardware for the trainer kit is extra",
+      "last_reviewed": "2026-10-13",
+      "verification": "Site fetched on October 13, 2026; the descriptions are the site's own; courseware, challenges and the build guide not opened or evaluated",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "foundation",
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R096",
+      "category": "Engineering and sector guidance",
+      "title": "NIST SP 1800-10 — Protecting information and system integrity in ICS environments (manufacturing)",
+      "url": "https://csrc.nist.gov/pubs/sp/1800/10/final",
+      "level": "Practitioner / Architect",
+      "summary": "A NIST National Cybersecurity Center of Excellence practice guide showing how commercially available, standards-based products can provide behavioral anomaly detection, application allowlisting and file-integrity checking in manufacturing control system environments.",
+      "practical_use": "Use it as a worked reference architecture when planning detection and integrity controls for a manufacturing OT network.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "NIST publication with a PDF download link; no account indicated; the products named are examples and may differ from what you run",
+      "last_reviewed": "2026-10-13",
+      "verification": "NIST publication page fetched on October 13, 2026; date and download link observed; the PDF was not opened",
+      "publication_status": "Final, March 2022; products and versions in the guide reflect that date",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "architect"
+      ]
+    },
+    {
+      "id": "R097",
+      "category": "Vulnerability management and prioritization",
+      "title": "CVSS v4.0 specification, user guide and calculator — FIRST",
+      "url": "https://www.first.org/cvss/v4-0/",
+      "level": "Practitioner / Program lead",
+      "summary": "FIRST's hub for CVSS v4.0 links the specification document, user guide, implementation guide, examples, FAQ and an online calculator for scoring vulnerabilities.",
+      "practical_use": "Learn how the base, threat and environmental metrics are defined, and check a score you worked out by hand or in a tool.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Public hub page; the page does not state license terms for each document, so check them before redistributing",
+      "last_reviewed": "2026-10-13",
+      "verification": "FIRST page fetched on October 13, 2026; the linked documents and calculator were not opened or exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R098",
+      "category": "Vulnerability management and prioritization",
+      "title": "EPSS — Exploit Prediction Scoring System, FIRST",
+      "url": "https://www.first.org/epss/",
+      "level": "Practitioner / Program lead",
+      "summary": "A model maintained by a FIRST special interest group that estimates the probability that a published CVE will be exploited in the wild within the next 30 days. The page says the scores are freely and openly available as daily CSV downloads and through an API, with model documentation and research linked.",
+      "practical_use": "Add exploitation likelihood to patch-prioritization decisions, remembering that it scores CVEs generally and says nothing about operational consequence.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Data described as freely and openly available through CSV files and an API; the license of the documentation was not stated on the page",
+      "last_reviewed": "2026-10-13",
+      "verification": "FIRST page fetched on October 13, 2026; data files and API not downloaded or called",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R099",
+      "category": "Vulnerability management and prioritization",
+      "title": "CISA Known Exploited Vulnerabilities (KEV) catalog",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "level": "Practitioner / Program lead",
+      "summary": "CISA's catalog of vulnerabilities that are known to be exploited in the wild. Each entry carries a CVE identifier, the date it was added, a due date and a required action; the page offers CSV and JSON downloads, a print view and a JSON schema.",
+      "practical_use": "Check whether a vulnerability in your asset inventory is known to be actively exploited, and feed the JSON into your own prioritization.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Public; no account; machine-readable downloads; the due dates and required actions come from a CISA directive that binds US federal agencies and are context for everyone else",
+      "last_reviewed": "2026-10-13",
+      "verification": "CISA page fetched on October 13, 2026, showing 1,739 entries at that time; downloads not exercised",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R100",
+      "category": "Vulnerability management and prioritization",
+      "title": "CISA CSAF repository — machine-readable security advisories",
+      "url": "https://github.com/cisagov/CSAF",
+      "level": "Practitioner → Specialist",
+      "summary": "CISA's public repository of security advisories in the OASIS CSAF 2.0 format, with the industrial control systems (OT) advisories kept in their own folder, organized by year, together with an index and per-file signature and checksum files.",
+      "practical_use": "Pull advisories into your own tooling, or look up which published advisories name a CVE, a vendor or a product.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Public repository; no account; reading and downloading are free; GitHub did not detect a license file on October 12, 2026, so check before redistributing",
+      "last_reviewed": "2026-10-13",
+      "verification": "Repository structure inspected through the GitHub API on October 12–13, 2026 (OT advisory folders by year, an index and per-advisory files); advisory content not independently assessed",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R101",
+      "category": "Vulnerability management and prioritization",
+      "title": "OT Triage — Now / Next / Never triage for OT/ICS vulnerabilities (maintainer's tool)",
+      "url": "https://github.com/okieotsec/ot-triage",
+      "level": "Practitioner / Program lead",
+      "summary": "An open-source desktop tool maintained by the author of this catalog. It ranks an OT vulnerability as NOW, NEXT or NEVER from its CVSS score or vector, the asset's criticality and exposure, patch availability and compensating controls, and shows its reasoning. It works offline and uses CISA KEV, EPSS and CISA's ICS advisories as context.",
+      "practical_use": "Try a transparent, explainable triage on the sample findings, or read its policy document to see how each rule was reasoned.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free and open source (MIT for the code; the OkieOTSec name and logo are excluded from that license); needs Python 3.12 or newer with Tkinter; no third-party packages",
+      "last_reviewed": "2026-10-13",
+      "verification": "Repository and releases checked by the maintainer on October 13, 2026; included as the maintainer's own project, so judge its rules for yourself",
+      "publication_status": "Maintained by the catalog's author; not independently reviewed",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R102",
+      "category": "Frameworks and architecture",
+      "title": "Primary Mitigations to Reduce Cyber Threats to Operational Technology — CISA, FBI, EPA and DOE",
+      "url": "https://www.cisa.gov/resources-tools/resources/primary-mitigations-reduce-cyber-threats-operational-technology",
+      "level": "Foundation → Program lead",
+      "summary": "A joint fact sheet urging operators to take OT systems off the public internet, replace default passwords, tighten remote access, separate IT and OT networks, and keep the ability to operate manually.",
+      "practical_use": "Use it as a short, prioritized checklist for a first review of exposed or weakly protected OT.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free; no account required",
+      "last_reviewed": "2026-10-13",
+      "verification": "CISA page fetched on October 13, 2026; the linked PDF was not opened",
+      "publication_status": "Published May 6, 2025",
+      "access_class": "public_free",
+      "audience_tags": [
+        "foundation",
+        "practitioner",
+        "program-lead"
+      ]
+    },
+    {
+      "id": "R103",
+      "category": "Security learning and reference",
+      "title": "Awesome Industrial Control System Security — community list",
+      "url": "https://github.com/hslatman/awesome-industrial-control-system-security",
+      "level": "Practitioner → Specialist",
+      "summary": "A community-curated list of industrial control system security resources, with sections for tools, honeypots, data, feeds and news, conferences, literature and education.",
+      "practical_use": "Discover tools and papers beyond this catalog, treating it as a lead generator: check each item's source, license and age before relying on it.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free public GitHub list (Apache-2.0); the items link to third-party material with its own terms",
+      "last_reviewed": "2026-10-13",
+      "verification": "Official repository page fetched on October 13, 2026; the page did not show a date for the latest change, so currency of individual links was not verified",
+      "publication_status": "Community list; completeness and currency of individual links not verified",
+      "access_class": "public_free",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    },
+    {
+      "id": "R104",
+      "category": "Labs and protocol tooling",
+      "title": "ICS-Security-Tools — community collection (ITI)",
+      "url": "https://github.com/ITI/ICS-Security-Tools",
+      "level": "Practitioner → Specialist",
+      "summary": "A community collection of tools, tips, packet captures, protocol notes, configurations, guides, feeds, hardware notes and scripts for exploring ICS security, described by its authors as developed as a community asset.",
+      "practical_use": "Find practice captures and starter tooling for a lab, then follow each item back to its original source.",
+      "cost_group": "free",
+      "cost": "$0",
+      "access": "Free public repository (CC BY 4.0 for the collection); the tools and captures it points to keep their own licenses and provenance; no maintenance statement on the page",
+      "last_reviewed": "2026-10-13",
+      "verification": "Official repository page fetched on October 13, 2026; contents not individually reviewed",
+      "access_class": "free_with_conditions",
+      "audience_tags": [
+        "practitioner",
+        "specialist"
+      ]
+    }
+  ],
+  "revision_note": "Added 15 free resources discovered in the user-supplied 2023 SANS ICS Field Manual; old links and archived tools reviewed separately."
+}
