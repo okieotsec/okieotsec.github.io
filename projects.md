@@ -20,6 +20,7 @@ You give it a CVSS score or a full CVSS vector, optionally a CVE, and what you k
 ### What it does
 
 <ul class="facts">
+  <li><strong>Try the rules first.</strong> A <a href="{{ '/ot-triage-demo/' | relative_url }}">small demo page</a> runs the same NOW / NEXT / NEVER rules in your browser, with the reasons and what would change the answer. It loads nothing from other sites and nothing you enter leaves the page.</li>
   <li><strong>Threat intelligence built in.</strong> Looks a CVE up in CISA's Known Exploited Vulnerabilities catalog and in EPSS. It shows CISA's required action, its reference links (only plain HTTPS links are clickable, and you always see the real domain), and the forensic-triage flag.</li>
   <li><strong>CVSS vectors.</strong> Paste a CVSS 3.0, 3.1 or 4.0 vector and the score is filled in. Every possible base vector was checked against FIRST's official calculators.</li>
   <li><strong>CISA ICS advisories.</strong> Shows which of CISA's published ICS advisories name a CVE, with a link to each one, what it says about a fix (a vendor fix, a mitigation only, or nothing yet) and the vendor's own steps in the vendor's words: the firmware to install, the setting to change, the workaround. This is context: it never changes the answer.</li>
@@ -57,7 +58,8 @@ It is a security tool, so it is tested like one. The project has a written secur
 The Now / Next / Never categories come from the framing Dragos has used in its annual ICS/OT Year in Review. The definitions and scoring rules here are my own and are documented in the repository.
 
 <div class="actions">
-  <a class="button" href="{{ site.links.ot_triage }}">View on GitHub</a>
+  <a class="button" href="{{ '/ot-triage-demo/' | relative_url }}">Try the rules in your browser</a>
+  <a class="button secondary" href="{{ site.links.ot_triage }}">View on GitHub</a>
   <a class="button secondary" href="{{ site.links.ot_triage }}#readme">Read the README</a>
 </div>
 
