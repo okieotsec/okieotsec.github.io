@@ -2082,7 +2082,7 @@
       "practical_use": "Try a transparent, explainable triage on the sample findings, or read its policy document to see how each rule was reasoned.",
       "cost_group": "free",
       "cost": "$0",
-      "access": "Free and open source (MIT for the code; the OkieOTSec name and logo are excluded from that license); needs Python 3.12 or newer with Tkinter; no third-party packages",
+      "access": "Free and open source (AGPL-3.0-only from version 0.11.0, MIT for earlier versions; the OkieOTSec name and logo are excluded from that license); needs Python 3.12 or newer with Tkinter; no third-party packages",
       "last_reviewed": "2026-10-13",
       "verification": "Repository and releases checked by the maintainer on October 13, 2026; included as the maintainer's own project, so judge its rules for yourself",
       "publication_status": "Maintained by the catalog's author; not independently reviewed",
