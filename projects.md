@@ -65,8 +65,8 @@ The Now / Next / Never categories come from the framing Dragos has used in its a
 
 ### Get it
 
-The current version is **0.10.0**. Each [release]({{ site.links.ot_triage }}/releases/latest) has a portable bundle (`ot-triage-0.10.0.zip`) with a checksum file next to it. Unzip it anywhere and, on Windows, double-click **OT Triage.pyw**; everywhere else run `python3 ot_triage_gui.py`. It needs Python 3.12 or newer with Tkinter, and nothing else: no third-party packages and no `.exe`. The bundle is reproducible, so anyone can rebuild it from the tag and compare the checksum, and from 0.9.0 on it carries a signed build attestation that `gh attestation verify` can check.
+The current version is **0.11.0**. Each [release]({{ site.links.ot_triage }}/releases/latest) has a portable bundle (`ot-triage-0.11.0.zip`) with a checksum file next to it. Unzip it anywhere and, on Windows, double-click **OT Triage.pyw**; everywhere else run `python3 ot_triage_gui.py`. It needs Python 3.12 or newer with Tkinter, and nothing else: no third-party packages and no `.exe`. The bundle is reproducible, so anyone can rebuild it from the tag and compare the checksum, and from 0.9.0 on it carries a signed build attestation that `gh attestation verify` can check.
 
 If you are looking for places to learn more about OT security, there is also a [curated list of free OT/ICS resources]({{ '/resources/' | relative_url }}).
 
-MIT licensed code. The OkieOTSec name and logo are not part of that license.
+Licensed under the AGPL-3.0-only from 0.11.0 (earlier versions were released under the MIT License). The OkieOTSec name and logo are not part of that license.
